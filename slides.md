@@ -1,68 +1,52 @@
 ---
 marp: true
-theme: custom-theme
+theme: custom
 paginate: true
-paginate-placement: bottom-right
+title: Product Documentation Presentation
+author: 22f1000912@ds.study.iitm.ac.in
+backgroundColor: #ffffff
 ---
 
-<!--
-You can convert this using:
-marp slides.md --html --theme custom-theme.css
-marp slides.md --pdf
--->
+# Product Documentation  
+### by **22f1000912@ds.study.iitm.ac.in**
 
-# **Product Documentation Presentation**
-### Author: 22f1000912@ds.study.iitm.ac.in
-
----
-
-# **Overview**
-
-- Modern Marp-based documentation  
-- Version-controlled Markdown  
-- Convertible to PDF / HTML / PPTX  
-- Custom theme + styling  
-- Background images  
-- Math equations using KaTeX  
+This Marp presentation uses:
+- Custom theme  
+- Page numbers  
+- Background image  
+- Math equations  
+- Custom styling  
 
 ---
 
-<!-- Custom background image slide -->
-![bg](https://source.unsplash.com/1600x900/?technology,software)
+<!-- background: "https://images.unsplash.com/photo-1526406915894-7bcd65f60845" -->
 
-# **Background Image Example**
+# Slide with Background Image
 
-This slide uses a full-screen background image via Marp `![bg]()` syntax.
+This slide has a background image using Marp directives.
 
 ---
 
-# **Algorithmic Complexity**
+# Algorithmic Complexity
 
-We often express algorithmic cost using Big-O notation:
+Marp supports math using KaTeX:
 
 \[
 T(n) = O(n \log n)
 \]
 
-Or more generally:
+---
 
-\[
-T(n) = a n^2 + b n + c
-\]
+<!-- Class-based styling example -->
+
+# Styled Slide {.bigtext}
+
+This slide uses custom styling defined in `custom-theme.css`.
 
 ---
 
-# **Sample Code Snippet**
+# Thank You
 
-```python
-def binary_search(arr, target):
-    low, high = 0, len(arr)-1
-    while low <= high:
-        mid = (low + high) // 2
-        if arr[mid] == target:
-            return mid
-        if arr[mid] < target:
-            low = mid + 1
-        else:
-            high = mid - 1
-    return -1
+Email: **22f1000912@ds.study.iitm.ac.in**
+
+
