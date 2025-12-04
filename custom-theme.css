@@ -1,27 +1,11 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/marp-core/3.6.0/marp-core.min.css';
 
----
-
-# 🎨 **Custom Theme (custom-theme.css)**
-
-Save this next to `slides.md`:
-
-```css
-/* custom-theme.css */
-@import 'default';
+section.bigtext h1 {
+  font-size: 2.6rem;
+  color: #0066cc;
+}
 
 section {
-  font-family: "Segoe UI", sans-serif;
-  letter-spacing: 0.2px;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-h1 {
-  color: #2058a0;
-}
-
-h2, h3 {
-  color: #1c3f70;
-}
-
-footer {
-  color: #777;
-}
