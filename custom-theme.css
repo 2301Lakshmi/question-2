@@ -1,0 +1,27 @@
+
+---
+
+# 🎨 **Custom Theme (custom-theme.css)**
+
+Save this next to `slides.md`:
+
+```css
+/* custom-theme.css */
+@import 'default';
+
+section {
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+h1 {
+  color: #2058a0;
+}
+
+h2, h3 {
+  color: #1c3f70;
+}
+
+footer {
+  color: #777;
+}
